@@ -6,6 +6,6 @@ import React from "react";
 //}
 
 //ES6
-export const Greet = () => <h1>Olá, você!</h1>
+export const Greet = () => <h2>Stateless Functional Component</h2>
 
 //export default Greet
