@@ -1,8 +1,12 @@
 import React from "react";
 
-const Hello = () => {
-    return(
-        <h1>Olá, você!</h1>
+const Hello = (props) => {
+    console.log(props)
+    return( 
+        <div>
+            <h1>Olá, {props.name}</h1>
+            {props.children}
+        </div>
     )
 }
 

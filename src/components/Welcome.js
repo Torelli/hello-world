@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 class Welcome extends Component{
     render(){
-        return <h3>Stateful Class Component</h3>
+        return <h3>Bem-vindo, {this.props.name}</h3>
     }
 }
 

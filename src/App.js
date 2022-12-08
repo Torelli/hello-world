@@ -7,9 +7,11 @@ import Hello from './components/Hello';
 function App(){
   return(
     <div className="App">
-      <Hello/>
-      <Greet/>
-      <Welcome/>
+      <Hello name="Giovanni"><p>Você é top!</p></Hello>
+      <Hello name="José"><p>Você é top!</p></Hello>
+      <Hello name="Maria"><p>Você é top!</p></Hello>
+      {/*<Greet/>*/}
+      <Welcome name="Fernando"/>
     </div>
   );
 }
