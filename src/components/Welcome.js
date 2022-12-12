@@ -2,7 +2,9 @@ import React, {Component} from 'react'
 
 class Welcome extends Component{
     render(){
-        return <h3>Bem-vindo, {this.props.name}</h3>
+        const {name} = this.props
+        // const {state1, state2} = this.state
+        return <h3>Bem-vindo, {name}</h3>
     }
 }
 

@@ -9,13 +9,13 @@ import Counter from './components/Counter';
 function App(){
   return(
     <div className="App">
-      <Greet name="Bruce" heroName="Batman" />
-      {/*<Message/>
+      <Welcome name="Fernando"/>
+      {/*<Greet name="Bruce" heroName="Batman" />
+      <Message/>
       <Hello name="Giovanni"><p>Você é top!</p></Hello>
       <Hello name="José"><p>Você é top!</p></Hello>
       <Hello name="Maria"><p>Você é top!</p></Hello>
-      <Greet/>
-      <Welcome name="Fernando"/>*/}
+      <Greet/>*/}
     </div>
   );
 }
