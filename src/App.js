@@ -5,17 +5,21 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App(){
   return(
     <div className="App">
-      <Welcome name="Fernando"/>
+      <FunctionClick/>
+      <ClassClick/>
       {/*<Greet name="Bruce" heroName="Batman" />
       <Message/>
       <Hello name="Giovanni"><p>Você é top!</p></Hello>
       <Hello name="José"><p>Você é top!</p></Hello>
       <Hello name="Maria"><p>Você é top!</p></Hello>
-      <Greet/>*/}
+      <Greet/>
+      <Welcome name="Fernando"/>*/}
     </div>
   );
 }
