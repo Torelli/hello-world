@@ -22,8 +22,21 @@ function NameList() {
             skill: 'Vue'
         }
     ]
-    const personList = persons.map(person => (<Person person={person} />))
-    return <div>{personList}</div>
+    const personList = persons.map(person => (<Person key={person.id} person={person} />))
+    return <div>
+        <table className='tabela'>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Habilidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                {personList}
+            </tbody>
+        </table>
+    </div>
 
 }
 
