@@ -10,13 +10,17 @@ class UserGreeting extends Component {
     }
   }
   
-  // Abordagem Ternary Condition
+  
     render() {
-      return this.state.isLoggedIn ? (
-        <div>Bem-vindo, Giovanni!</div>
-       ) : (
-        <div>Bem-vindo, Visitante!</div>
-      )
+      
+      return this.state.isLoggedIn && <div>Bem-vindo, Giovanni!</div>
+
+      // Abordagem Ternary Conditional
+      // return this.state.isLoggedIn ? (
+      //   <div>Bem-vindo, Giovanni!</div>
+      //  ) : (
+      //   <div>Bem-vindo, Visitante!</div>
+      // )
 
       // Abordagem com Element Variables
       // let message
